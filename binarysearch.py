@@ -9,7 +9,7 @@ class Node:
 class BinaryTree:
     
     def __init__(self,val):
-        self.root=Node(val=val)
+        self.root = Node(val)
     def addValue(self,val):
         if self.root is None:
             self.root= Node(val=val)
@@ -45,17 +45,13 @@ class BinaryTree:
 
             
         
-        
-        
-        
-        
-        
-tree=BinaryTree(3)
-tree.addValue(4)
-tree.addValue(6)
-tree.addValue(2)
+if __name__ == "__main__":
+    tree = BinaryTree(3)
+    tree.addValue(4)
+    tree.addValue(6)
+    tree.addValue(2)
 
-print(tree.binarySearch(6))
+    print(tree.binarySearch(6))
         
         
 
