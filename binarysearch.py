@@ -47,7 +47,7 @@ class BinaryTree:
         
         
         
-        
+ #this is working good       
         
         
 tree=BinaryTree(3)
